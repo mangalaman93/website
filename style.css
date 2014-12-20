@@ -1,0 +1,25 @@
+﻿body {
+	color:#185359;
+}
+
+#sketch {
+	float:left;
+}
+
+#header {
+	margin-left:auto;
+	float:left;
+}
+
+.sub {
+	font-weight:bold;
+}
+
+.header2 {
+	font-size:150%;
+	font-weight:bold;
+}
+
+.clear{
+	clear:both;
+}

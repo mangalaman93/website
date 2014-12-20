@@ -4,3 +4,6 @@ _vti_*
 # Windows Files
 *.ini
 
+# Picassa
+*Thumbs.db*
+*picasa*
