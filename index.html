@@ -64,13 +64,140 @@
 <div id="research">
 	<p class="header2">Research Experience</p>
 	<hr/>
-	<p class="header3">Distributed Resource Exchange</p>
-	<p class="header3">Grand Challenge 2015 DEBS</p>
-	<p class="header3">Optimizing Short Read Error Correction on GPU</p>
-	<p class="header3">Grand Challenge 2014 DEBS</p>
-	<p class="header3">Erlang Distributed File System</p>
-	<p class="header3">A Long-Term Profit Based Approach For Dynamic Server Consolidation in Virtual Machine Clusters</p>
-	<p class="header3">Unified Call Distributor (UCD)</p>
+	<b class="header3">Optimizing Short Read Error Correction on GPU</b>
+		<div class="content">
+			Next generation sequencing (NGS) technologies have revolutionized the way of analyzing
+			genetic information. It has eliminated the limitations of previous techniques in terms of
+			throughput, speed, scalability and resolution. The effectiveness of NGS technologies is
+			further improved by using error correction methodology on the imperfect though redundant
+			sequence reads. In this project, we have utilized our HPC expertise gained in the CSE 6230
+			class and improved the run-time of GPU based solution (CUDA-EC) to this problem. We
+			propose a parallel implementation for the same algorithm which reduces the kernel execution
+			time by approximately 14.81% which we have achieved by increasing warp efficiency from
+			3.5% to 67.5% and a few other code optimization. We also show that multiple-threads-one-read
+			model has enough task parallelism to exploit on GPU compared to classical approach of one-thread
+			one-read model.<br/>
+			<a href="https://bitbucket.org/cjain7/cse6230-project">
+                <img src="image/github.jpg" alt="code" width="16" height="16" title="bitbucket"/>
+                view source code
+            </a>
+            <a href="https://bytebucket.org/cjain7/cse6230-project/raw/0a2b87bde3d12a45decc4423303e24fa4592e29d/final-report.pdf" style="margin-left:10px">
+                <img src="image/pdf.png" alt="report" width="16" height="16" title="report"/>
+                view report
+            </a>
+		</div>
+	<br/>
+	<b class="header3">Fault Tolerance in Software Defined Networks</b>
+		<div class="content">
+			The Software Defined Networking paradigm introduces the concept of separation of data plane
+			(forwarding plane) and control plane as well as centralization of algorithms that make routing
+			decisions. Centralization greatly simplifies management of network by simplifying policy
+			specification, modification, implementation and verification etc. Although, significant research
+			has been conducted on SDN in recent years, there has not been enough discussion on how to deal
+			with age-old yet common problem of network failures. Centralization also introduces more points
+			of failures such as controller failures in the network. In this paper, we consolidate existing
+			work in the domain of fault tolerance in software defined networks. We, then, define the problem
+			of link	failures and the constraints we faced while solving it. We propose an algorithm for
+			proactively handling link failures. We have implemented our solution using pyretic (a SDN controller).<br/>
+			<a href="https://github.com/mangalaman93/pyretic">
+                <img src="image/github.jpg" alt="code" width="16" height="16" title="github"/>
+                view source code
+            </a>
+		</div>
+	<br/>
+	<b class="header3">DEBS Grand Challenge 2014</b>
+		<div class="content" >
+			Smart grids are becoming ubiquitous today with proliferation of easy to install power
+            generation schemes for Solar and Wind energy. The goal of consuming energy generated locally
+            instead of transmitting it over large distances calls for systems that can process millions
+            of events being generated from smart plugs and power generation sources in near real time.
+            The heart of these systems often is a module that can process dense power consumption event
+            streams and predict the consumption patterns at specific occupational units such as a house
+            or a building. It is also often useful to identify outliers that are consuming power significantly
+            higher than other similar devices in the occupational unit (such as a block or a neighborhood). In
+            this paper, we present a system that can process over a million events per second from smart plugs
+            and correlate the information to output both accurate predictions as well as identify outliers. Our
+            system is built from the ground up in C++ rather than using sophisticated complex event processing
+            engines or any other commercial product which is why we believe we have achieved very high throughputs
+            with very low CPU capacity for processing the events. Our results show that the throughput of our
+            system is over a million events per second while using under 20% of one core.<br/>
+            <a href="https://github.com/mangalaman93/c-smartplug">
+                <img src="image/github.jpg" alt="code" width="16" height="16" title="github"/>
+                view source code
+            </a>
+            <a href="http://dl.acm.org/citation.cfm?id=2611328" style="margin-left:10px">
+	            <img src="image/acm.jpg" alt="paper" width="16" height="16" title="DEBS 2014"/>
+	            view paper
+	        </a>
+		</div>
+    <br/>
+	<b class="header3">Erlang Distributed File System</b>
+		<div class="content">
+			Erlang is recently developed general purpose highly concurrent functional programming
+            language. It was designed to support distributed, fault tolerant, scalable, non-stop
+            applications. It has been used in production systems (e.g. AXD301 ATM switch) with an uptime
+            percentage of 99.9999999% (nine nine's). It is being used by Facebook, Github, Riak, Amazon
+            etc. to develop large distributed systems. We have leveraged the distributed capabilities of
+            Erlang and have developed yet another DFS namely Erlang Distributed File System (eDFS). It
+            is highly concurrent, reliable, scalable and fault tolerant. In this report, we first develop
+            small taxonomy of DFSs. We, then describe the architecture of eDFS and compare the design
+            with the existing DFSs.<br/>
+            <a href="https://github.com/mangalaman93/eDFS">
+                <img src="image/github.jpg" alt="code" width="16" height="16" title="github"/>
+                view source code
+            </a>
+            <a href="http://www.cse.iitb.ac.in/alumni/~amanmangal10/doc/edfs/index.html" style="margin-left:10px">
+                <img src="image/erlang.png" alt="documentation" width="16" height="16" title="Edoc link"/>
+                view report
+            </a>
+    	</div>
+    <br/>
+	<b class="header3">A Long-Term Profit Based Approach For Dynamic Server Consolidation in Virtual Machine Clusters</b>
+		<div class="content">
+			<em>Dynamic Server Consolidation (DSC)</em> is a technique used by cloud
+            owners to consolidate multiple virtual machines (VM) that run client
+            application components, onto a minimal number of physical
+            machines (PM).  Dynamic change in the VM-to-PM mapping is achieved
+            by exploiting the <em>live migration</em> capability of VMs. In this
+            paper, we propose an approach which is based on two paradigms:
+            first, that inputs to the DSC algorithm should be actual revenues
+            and costs, and no artificial cost should be provided. Second,
+            that a consolidation decision must take <em>long term benefit</em>
+            into account.  We first propose a profit model in which costs of
+            actions such as VM migration decisions manifest as SLA penalties and
+            increased operating costs. We then use this profit model to
+            formulate this problem as a <em>Markov Decision Process
+            (MDP)</em>. We do this by narrowing our scope to workloads that are
+            <em>cyclic</em> in nature.  Although the proposed approach is not
+            practical yet due to prohibitive complexity of the solution,
+            preliminary results show that there is good potential in the
+            approach and further research in this direction will be worthwhile.<br/>
+            <a href="https://github.com/mangalaman93/simcon">
+                <img src="image/github.jpg" alt="code" width="16" height="16" title="github link"/>
+                view source code
+            </a>
+    	</div>
+	<br/>
+	<b class="header3">Unified Call Distributor (UCD)</b>
+		<div class="content">
+			Unified Call Distribution System (UCD) is a distributed system which routes requests
+            to specific group of agents based on their skill set in a proportionate manner. It is
+            an extension of <a href="https://github.com/OpenACD/OpenACD">OpenACD</a>
+            but is independent of the channel associated to any request and therefore, called unified.
+            The system maintains sessions of agents, connects clients to the agents for communication,
+            shows the current status on monitor etc. The client can communicate to agent on any kind of
+            channel such as chat, voice call, email or through any social media network.
+			The task of routing is carried by an integral component called Call Distributor (CD). It
+			is developed in Erlang. The other component units Channel Servers (CS) and Agent Servers (AS)
+			maintains sessions of agents or clients and feed data to CD. It, in turn, maintains real time
+			data in mnesia database and performs the task of routing. The real time data includes all the
+			agents logged in, queues of requests for each channel etc. Every request is assigned to an agent
+			after matching mandatory properties, counting desired properties and at last based on "most idle"
+			agent definition. Agents can be configured to handle multiple requests at a time. Such a
+			channel configuration is called parallel channel. We keep mnesia tables with hashed names
+			where key is properties of agents and value is list of free agents in order to speed up the
+			routing process.
+		</div>
 </div>
 
 <!--COURSES-->
@@ -95,7 +222,7 @@
 		<li>I will be TAing Undergraduate Computer Networks (CS 3251) in Spring, 2015</li>
 		<li>We will be launching <a href="https://trestor.org/">Trestor</a> in Jan, 2015. Join 
 			<a href="http://www.meetup.com/Tconnect/">meetup</a></li>
-		<li>I am a great fan of the language <a href="http://www.erlang.org/">Erlang</a>, specially the 
+		<li>I am a great fan of language <a href="http://www.erlang.org/">Erlang</a>, specially the 
 			<a href="http://www.erlang.org/download/armstrong_thesis_2003.pdf">thesis 
 			</a>by <a href="http://joearms.github.io/">Joe Armstrong</a></li>
 		<li>My life has been greatly influenced by 
@@ -107,9 +234,7 @@
 	</ul>
 </div>
 
-<center>
-	<font color="gray"> Last updated in Dec 2014<br></font>
-</center>
+<div style="color:gray; text-align:center;"> Last updated in Dec 2014<br/></div>
 </body>
 
 </html>
