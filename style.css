@@ -1,9 +1,18 @@
 ﻿body {
-	font-family: 'Open Sans', sans-serif;
+	font-family:'Open Sans', sans-serif;
+	margin-left:10px;
 }
 
-a {
-	text-decoration:none;
+a:link, a:visited {
+    color:#008040;
+    text-decoration:none;
+}
+a:hover, a:active {
+    text-decoration:underline;
+}
+
+p {
+	margin:0px;
 }
 
 .sketch {
@@ -25,8 +34,14 @@ a {
 
 .header2 {
 	color:#0F4057;
-	font-size:150%;
+	font-size:140%;
 	font-weight:bold;
+	margin-bottom:5px;
+	margin-top:20px;
+}
+
+.content {
+	padding-left:5px;
 }
 
 .header3 {
