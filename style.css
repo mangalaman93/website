@@ -1,23 +1,38 @@
 ﻿body {
-	color:#185359;
+	font-family: 'Open Sans', sans-serif;
 }
 
-#sketch {
+a {
+	text-decoration:none;
+}
+
+.sketch {
 	float:left;
 }
 
-#header {
-	margin-left:auto;
+.title {
 	float:left;
+}
+
+.header {
+	font-size:220%;
+	color:#0F4057;
 }
 
 .sub {
-	font-weight:bold;
+	color:#0F4057;
 }
 
 .header2 {
+	color:#0F4057;
 	font-size:150%;
 	font-weight:bold;
+}
+
+.header3 {
+	color:#0F4057;
+	font-weight:bolder;
+	font-size:120%;
 }
 
 .clear{
