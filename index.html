@@ -35,8 +35,8 @@
 		Atlanta, GA, USA<br/>
 		<br/>
 		<b class="sub">Address:</b>
-		&nbsp; 470 16th ST NW, Atlantic Square<br/>
-		<span style="padding-left:82px">APT 1019, Atlanta, GA, 30363</span><br/>
+		&nbsp; 391 17th ST NW, APT 1045<br/>
+		<span style="padding-left:82px">Atlanta, GA, USA, 30363</span><br/>
 		<b class="sub">Phone:</b> &nbsp; +1 (404) 980-2426<br/>
 		<b class="sub">hangout:</b> &nbsp; mangalaman93 <br/>
 		<b class="sub">Email:</b> &nbsp; &lang;firstname&rang;&lang;lastname&rang;@gatech.edu
@@ -49,8 +49,9 @@
 	<p class="header2">Brief Biography</p>
 	<hr/>
 	<p class="content">
-		I am a first year PhD student working with <a href="http://www.cc.gatech.edu/~schwan/">Karsten Schwan</a> and <a href="http://www.cc.gatech.edu/home/ada/">Ada Gavrilovska</a><br/>
+		I am a second year PhD student working with <a href="http://www.cc.gatech.edu/~schwan/">Karsten Schwan</a> and <a href="http://www.cc.gatech.edu/home/ada/">Ada Gavrilovska</a><br/>
 		My research interest include Distributed Systems, Cloud Computing, Software Defined Networking (SDN) and Distributed Event Based Systems<br/>
+		I am currently working on Network Function Virtualization (NFV), specifically on orchestration tools for Network Functions in cloud environment<br/>
 		Please find my CV <a href="doc/cv.pdf">here</a>, checkout my
 		<a href="https://github.com/mangalaman93">github</a> profile and my
 		<a href="http://www.cse.iitb.ac.in/alumni/~amanmangal10/">old website </a>
@@ -74,6 +75,24 @@
 <div id="research">
 	<p class="header2">Research Experience</p>
 	<hr/>
+	<b class="header3">Orchestration of Network Functions in Cloud (NFV)</b>
+		<div class="content">
+			The Recent emergence of Network Function Virtualization (NFV) technology has provided greater flexibility for applications running in the cloud in terms of placement, scalability etc. At the same time, it has led to a rising need of sophisticated mechanisms and orchestration tools to achieve bounded latency and throughput due to buffering in software queues, slow processing compared to hardware network functions (NF), software context switching and unpredictable software behaviours due to cache etc. The goal is to develop tools to provide given Quality of Service (QoS) which may be defined either in terms of end to end latency, response time or throughput in the presence of software NFs while using the placement, resource allocation, flow routing as control parameters. We have developed an infrastructure to run network functions as docker containers, networking is setup using OpenStack, nova-docker and openvswitch and routes are setup using an SDN controller such as OpendayLight.<br/>
+			<a href="https://github.com/mangalaman93/nfs">
+                <img src="image/github.jpg" alt="code" width="16" height="16" title="github"/>
+                view source code
+            </a>
+		</div>
+	<br/>
+	<b class="header3">Load Based Server Selection for Linux Containers</b>
+		<div class="content">
+			We developed a monitoring infrastructure for Linux containers running on a cluster of physical servers using collectd, influxdb (a time series database) and grafana (for visualization of various metrics). We, then, compared various load prediction and container packing algorithms used for server consolidation in a cloud environment, using the technique of Discrete Event Time Simulation. We picked a specific set of containers streaming an arbitrary number of pixel streams used inside Bell Labs and analyzed their workload. To host a large number of such containers on a minimum set of physical servers while still maintaining an acceptable level of user response time, we needed to compare algorithms for load prediction and container packing. We, therefore, developed a Discrete Event Simulation infrastructure and showed that the simulation workload is close to real workload.<br/>
+			<a href="http://onlinelibrary.wiley.com/doi/10.1002/bltj.21544/abstract">
+                <img src="image/acm.jpg" alt="code" width="16" height="16" title="reference"/>
+                view related paper
+            </a>
+		</div>
+	<br/>
 	<b class="header3">Optimizing Short Read Error Correction on GPU</b>
 		<div class="content">
 			Next generation sequencing (NGS) technologies have revolutionized the way of analyzing
@@ -215,14 +234,20 @@
 	<p class="header2">Courses</p>
 	<hr/>
 	<ul>
+		<li>Distributed Computing by
+			<a href="http://www.cc.gatech.edu/fac/Karsten.Schwan/">Prof Karsten Schwan</a> and
+			<a href="http://www.cc.gatech.edu/~eisen/">Greg Eisenhauer</li>
+		<li><a href="https://cs6505.wordpress.com/">Computability and Algorithms</a> by
+			<a href="http://www.cc.gatech.edu/~vigoda">Eric Vigoda</a> and
+			<a href="http://www.cc.gatech.edu/~vempala">Santosh Vempala</a></li>
 		<li><a href="http://www.cc.gatech.edu/~rama/CS6210-External/">Advanced Operating System</a> (AOS) by
 			<a href="http://www.cc.gatech.edu/~rama/">Prof Umakishore Ramachandran</a></li>
 		<li><a href="http://gtnoise.net/classes/cs8803sdn/fall2014/">Software Defined Networking</a> (SDN) by
-			<a href="http://www.cc.gatech.edu/~feamster/">Prof Nick Feamster</a></li>
+			<a href="http://www.cs.princeton.edu/~feamster/">Prof Nick Feamster</a></li>
 		<li><a href="http://vuduc.org/cse6230/">High Performance Computing</a> (HPC) by
 			<a href="http://vuduc.org/index.php">Prof Richard (Rich) Vuduc</a></li>
 		<li><a href="http://greatresearch.org/">Graduate Studies Computing</a> (CS 7001) by
-			<a href="http://www.cc.gatech.edu/~feamster/">Prof Nick Feamster</a></li>
+			<a href="http://www.cs.princeton.edu/~feamster/">Prof Nick Feamster</a></li>
 	</ul>
 </div>
 
@@ -231,20 +256,23 @@
 	<p class="header2">Miscellaneous</p>
 	<hr/>
 	<ul>
-		<li>I am TAing Undergraduate Computer Networks (CS 3251) this semester (Spring 2015)</li>
+		<li>I am looking for a summer internship (2016)</li>
+		<li>I have been hacking <a href="https://www.docker.com/">docker</a> and related tools lately.
+			Checkout my <a href="https://github.com/mangalaman93">github</a> profile</li>
+		<li>I am fascinated by cross compilation facility of golang. We even used it to run
+			<a href="https://github.com/mangalaman93/etcd">etcd</a> on arm processor and it
+			has never been easier.</li>
+		<li>I am a great fan of language <a href="http://www.erlang.org/">Erlang</a> (and now golang),
+		    specially the <a href="http://www.erlang.org/download/armstrong_thesis_2003.pdf">thesis
+			</a>by <a href="http://joearms.github.io/">Joe Armstrong</a></li>
 		<li>We have recently launched <a href="https://trestor.org/">Trestor</a>. Join
 			<a href="http://www.meetup.com/Tconnect/">meetup</a>. Download <a href="https://play.google.com/store/apps/details?id=com.trestor.android">Android Application</a></li>
-		<li>I am a great fan of language <a href="http://www.erlang.org/">Erlang</a>, specially the
-			<a href="http://www.erlang.org/download/armstrong_thesis_2003.pdf">thesis
-			</a>by <a href="http://joearms.github.io/">Joe Armstrong</a></li>
-		<li>I will be at <a href="http://en.wikipedia.org/wiki/Bell_Labs">Bell Labs</a>
-		    during Summer 2015 and I am really excited!</li>
 		<li>My webpage design is inspired from homepage of
 			<a href="http://www.cse.iitb.ac.in/~trivedi/">Prof Ashutosh Trivedi</a></li>
 	</ul>
 </div>
 
-<div style="color:gray; text-align:center;"> Last updated in April 2015<br/></div>
+<div style="color:gray; text-align:center;"> Last updated in Nov 2015<br/></div>
 </body>
 
 </html>
