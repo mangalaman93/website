@@ -28,7 +28,7 @@
 	</div>
 	<div class="title">
 		<div style="margin-top:16px;" class="header">Aman Mangal</div>
-		Pre-doctoral Student <br/>
+		Master of Science Student <br/>
 		<a href="http://www.scs.gatech.edu/">School of Computer Science</a>,
 		<a href="http://www.cc.gatech.edu/">College of Computing</a> <br/>
 		<a href="http://www.gatech.edu/">Georgia Institute of Technology</a>,
@@ -49,7 +49,7 @@
 	<p class="header2">Brief Biography</p>
 	<hr/>
 	<p class="content">
-		I am a second year PhD student working with <a href="http://www.cc.gatech.edu/~schwan/">Karsten Schwan</a> and <a href="http://www.cc.gatech.edu/home/ada/">Ada Gavrilovska</a><br/>
+		I am a final year MS student working with <a href="http://www.cc.gatech.edu/~schwan/">Karsten Schwan</a> and <a href="http://www.cc.gatech.edu/home/ada/">Ada Gavrilovska</a><br/>
 		My research interest include Distributed Systems, Cloud Computing, Software Defined Networking (SDN) and Distributed Event Based Systems<br/>
 		I am currently working on Network Function Virtualization (NFV), specifically on orchestration tools for Network Functions in cloud environment<br/>
 		Please find my CV <a href="doc/cv.pdf">here</a>, checkout my
@@ -75,6 +75,19 @@
 <div id="research">
 	<p class="header2">Research Experience</p>
 	<hr/>
+	<b class="header3">Raft Consensus Algorithm for Data Center Network</b>
+		<div class="content">
+			Data centers are becoming increasingly popular for their flexibility and processing capabilities. They are managed by a single entity and used by thousands of users. Centralized administration makes them extensible, predictable and more reliable, making them a good environment for innovative distributed applications. The flexibility and stronger guarantees provided by the data center network allow us to co-design distributed systems with their network layer and optimize their overall performance. In this project, we have analyzed the performance of the Raft consensus algorithm in the presence of heavy network load. We show that the degraded system performance can be significantly improved by co-designing the system with the network layer. We evaluate our idea on a 5 node cluster of etcd key-value store, setup on banana pi boards connected in a star topology. We also show how we can expose the network layer improvements to the application in a transparent manner in order to simplify application development.<br/>
+			<a href="https://github.com/mangalaman93/etcd">
+                <img src="image/github.jpg" alt="code" width="16" height="16" title="github"/>
+                view source code
+            </a>
+            <a href="https://github.com/mangalaman93/etcd/blob/cs7210/7210/report.pdf" style="margin-left:10px">
+                <img src="image/pdf.png" alt="report" width="16" height="16" title="report"/>
+                view report
+            </a>
+		</div>
+	<br/>
 	<b class="header3">Orchestration of Network Functions in Cloud (NFV)</b>
 		<div class="content">
 			The Recent emergence of Network Function Virtualization (NFV) technology has provided greater flexibility for applications running in the cloud in terms of placement, scalability etc. At the same time, it has led to a rising need of sophisticated mechanisms and orchestration tools to achieve bounded latency and throughput due to buffering in software queues, slow processing compared to hardware network functions (NF), software context switching and unpredictable software behaviours due to cache etc. The goal is to develop tools to provide given Quality of Service (QoS) which may be defined either in terms of end to end latency, response time or throughput in the presence of software NFs while using the placement, resource allocation, flow routing as control parameters. We have developed an infrastructure to run network functions as docker containers, networking is setup using OpenStack, nova-docker and openvswitch and routes are setup using an SDN controller such as OpendayLight.<br/>
@@ -84,7 +97,7 @@
             </a>
 		</div>
 	<br/>
-	<b class="header3">Load Based Server Selection for Linux Containers</b>
+	<b class="header3">Load Based Server Selection for Linux Containers (Bell Labs, NJ)</b>
 		<div class="content">
 			We developed a monitoring infrastructure for Linux containers running on a cluster of physical servers using collectd, influxdb (a time series database) and grafana (for visualization of various metrics). We, then, compared various load prediction and container packing algorithms used for server consolidation in a cloud environment, using the technique of Discrete Event Time Simulation. We picked a specific set of containers streaming an arbitrary number of pixel streams used inside Bell Labs and analyzed their workload. To host a large number of such containers on a minimum set of physical servers while still maintaining an acceptable level of user response time, we needed to compare algorithms for load prediction and container packing. We, therefore, developed a Discrete Event Simulation infrastructure and showed that the simulation workload is close to real workload.<br/>
 			<a href="http://onlinelibrary.wiley.com/doi/10.1002/bltj.21544/abstract">
@@ -207,7 +220,7 @@
             </a>
     	</div>
 	<br/>
-	<b class="header3">Unified Call Distributor (UCD)</b>
+	<b class="header3">Unified Call Distributor, UCD (Novanet, Ltd)</b>
 		<div class="content">
 			Unified Call Distribution System (UCD) is a distributed system which routes requests
             to specific group of agents based on their skill set in a proportionate manner. It is
@@ -256,7 +269,7 @@
 	<p class="header2">Miscellaneous</p>
 	<hr/>
 	<ul>
-		<li>I am looking for a summer internship (2016)</li>
+		<li>I am looking for a full time position as Systems Engineer (2016)</li>
 		<li>I have been hacking <a href="https://www.docker.com/">docker</a> and related tools lately.
 			Checkout my <a href="https://github.com/mangalaman93">github</a> profile</li>
 		<li>I am fascinated by cross compilation facility of golang. We even used it to run
