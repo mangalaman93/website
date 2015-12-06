@@ -1,0 +1,216 @@
+Contact Information
+  Aman Mangal
+  391 17th ST NW, Seventeen West
+  Apt 1045, Atlanta, GA, USA
+  Mob: +1 (404) 980-2426
+  Email: amanmangal@gatech.edu
+
+Home Page
+  https://www.cc.gatech.edu/∼amangal7/
+  https://github.com/mangalaman93/
+
+Research Interests
+  Network Function Virtualization, Distributed Systems, Cloud Computing
+  Software Defined Networking, Distributed Event Based Systems
+
+Education
+  Georgia Institute of Technology, Atlanta, GA
+  Masters in Computer Science, GPA 4.0/4
+
+  Indian Institute of Technology, Bombay, India
+  Bachelor of Technology in Computer Science & Engineering with Honors, GPA: 8.54/10
+  Minor in Electrical Engineering, GPA: 8.06/10
+
+Publications
+  Aman Mangal, Arun Mathew, Tanmay Randhavane and Umesh Bellur. “Predicting Power
+  Needs in Smart Grids‘. In Proceedings of the 8th ACM International Conference
+  on Distributed Event-Based Systems (DEBS'14).
+
+Research Experience
+  Raft Consensus Algorithm for Data Center Network               [Sept 2015 - Dec 2015]
+  Guide: Greg Eisenhauer                         [https://github.com/mangalaman93/etcd]
+  * Analyzed the performance of Raft consensus algorithm in presence of heavy network
+    load and improved it by co-designing the system with the network layer
+  * Showed that write performance of etcd degrades in presence of heavy network load
+  * Enhanced throughput by setting higher priority to etcd messages than other traffic
+  * Exposed the network layer priorities to the application in a transparent manner in
+    order to simplify application development by modifying Golang http library
+  * Evaluated the idea on a 5 node cluster of etcd key-value store, setup on banana pi
+    boards connected in a star topology using a 802.1p enabled L2 switch
+
+  Load-Based Server Selection for Containers (Bell Labs)         [June 2015 - Aug 2015]
+  Mentors: Martin Carroll, Ilija Hadzic, Christian Hans Woithe
+  * Developed a monitoring infrastructure for Linux containers using collectd, influxdb
+    a time series database) and grafana (for visualization of various metrics)
+  * Analyzed workload of a specific set of containers streaming arbitrary number of
+    pixel streams to remote displays using locally available GPUs
+  * Compared load prediction and container packing algorithms using Discrete Event
+    Simulation for "streaming" containers assuming a exponentially distributed workload
+  * Demonstrated that real workload and generated workload is close enough to use the
+    results for real world scenarios
+
+  Fault Tolerance in Software Defined Networks                    [Oct 2014 - Dec 2014]
+  Guide: Prof Nick Feamster                   [https://github.com/mangalaman93/pyretic]
+  * Proposed algorithm for handling link failures in SDNs and implemented it in pyretic
+  * Performed reverse search by first selecting shortest paths in the network and then
+    choosing links for which these paths can be used as back up paths
+  * Provided fine-grained control over the network by let the user specify flows and
+    end nodes corresponding to which back up paths are to be installed
+  * Installed flow rules proactively to reduce downtime due to link failure
+
+  Optimizing Short Read Error Correction on GPU                   [Oct 2014 - Nov 2014]
+  Guide: Prof Richard Vuduc              [https://bitbucket.org/cjain7/cse6230-project]
+  * Improved efficiency of GPU based state of the art error correction software CUDA-EC
+    by 14.81% by increasing warp efficiency from 3.5% to 67.5% and other optimization
+  * Restructured the code by having one read processed by one warp and showed that
+    multiple-thread-one-read model has enough task parallelism to exploit on GPU
+    compared to the classical model of one-thread-one-read model
+  * Demonstrated that Bloom Filter access throughput cannot be further improved by
+    showing that average bits accessed per query is only 1.25 bits
+
+  Dynamic Server Consolidation in Virtual Cluster                [July 2013 - May 2014]
+  Guide: Prof Varsha Apte                      [https://github.com/mangalaman93/simcon]
+  * Leveraged cyclic workload of enterprise applications and formulated Dynamic Server
+  * Consolidation Problem (DSCP) as Finite Horizon Markov Decision Process (MDP)
+  * Reduced state space of MDP exploiting homogeneity of Physical Machines, therefore,
+    reducing time complexity by a factor of (log N )N , N is number of applications(VMs)
+  * Compared with Dynamic Management Algorithm of Khanna and pMapper while providing
+    the benefit of known cyclic workload, thus proving the optimality of MDP
+
+  Erlang Distributed File System (Undergraduate Thesis)          [July 2013 - Dec 2013]
+  Guide: Prof G. Sivakumar                       [https://github.com/mangalaman93/edfs]
+  * Extensively surveyed existing Distributed File Systems and developed a taxonomy
+  * Inspired from Hadoop Distributed File System, highly concurrent & fault tolerant
+  * Implemented stateless worker nodes to achieve fault tolerance, event based protocol
+    to detect component failures in the system
+  * Designed worker node as finite state machine with 4 different states - ReadWrite
+    (normal state), ReadOnly, Distress and Unavailable
+
+Work Experience
+  Erlang Package Manager (Google Summer of Code 2013)            [June 2013 - Dec 2014]
+  Mentor: Eric Merritt & Jordan Wilberding       [https://github.com/mangalaman93/epax]
+  * Built a command line interface(CLI) to create and maintain index of Erlang packages
+  * Solved the problem of dependency hell by retrieving OTP dependencies recursively
+  * Separated OS dependent and OS independent code, portable on Windows and Linux
+  * Provided support for various version control systems like git, bzr, svn where Erlang
+    packages can be maintained
+  * Provided the concept of publisher so that fork/modified repositories of a package
+    can be maintained as well as linked as a separate package
+
+  Unified Call Distributor (Novanet Ltd)                          [Dec 2012 - Dec 2013]
+  * Worked in a team of developers responsible for back end Erlang application
+  * Developed an algorithm to equally assign calls to agents by matching mandatory and
+    desired skills to agent properties, considered idle time in case of a draw
+  * Independent of channel (voice, chat, email etc.) of the request, hence unified
+  * Designed the OTP layout containing 14 different kinds of supervisors and workers
+  * Handled fail-over when master node dies, replicated database to backup node
+
+  Operation's Dashboard - opdash (Chronus Corporation)           [May 2013 - June 2013]
+  Mentor: Murali Bhoopathy, Director of Operations & Co-founder
+  * Built dashboards as well as a command line tool (CLI) to visualize operation's
+    performance for various production environments
+  * Used REST APIs to gather data from Pingdom, Newrelic, Amazon, Google spredsheets
+    and pushed it on Geckoboard for visualization
+  * Deployed on Amazon servers and scheduled periodic updates using cron utility
+
+Teaching Experience
+  Teaching Assistant, CS 3251 - Undergraduate Computer Networking         [Spring 2015]
+  Instructor: Prof Russell J. Clark & Prof Matt Sanders, Georgia Tech
+
+  Teaching Assistant, MA 214 - Introduction to Numerical Analysis         [Spring 2012]
+  Instructor: Prof S. Sivaji Ganesh, IIT Bombay
+
+Academic Achievements
+  * Secured All India Rank 70 in IIT JEE 2010 among 400,000 students
+  * Participated in Student Exchange Program and completed the spring semester 2011-12
+    in Nanyang Technological University (NTU), Singapore
+  * Secured All India Rank 256 in AIEEE 2010 among 800,000 students
+  * Awarded Narotam Sekhsaria Scholarship - 2010 for undergraduate studies in engineering
+  * Distinguished by Vasundhara Raje, Chief Minister of Rajasthan, India for 13th merit
+    in Secondary Board Examination 2010
+
+Honors & Olympiads
+  * Stood amongst the top 1% students of the country in Indian National Physics Olympiad
+  * Secured 56th position in the final round of 12th National Science Olympiad (NSO)
+  * Accomplished 7th position in second round of Indian National Mathematics Olympiad
+  * Invited for the session of Council of Scientific and Industrial Research (CSIR)
+    Program on Youth for Leadership in Science (CPYLS) 2008 in CEERI Pilani, India
+  * Invited for Google Summer of Code (GSoC) Mentor Summit (Reunion), 2014 held at
+    San Jose, CA, USA                                                 [23-26 Oct, 2014]
+
+Key Projects Undertaken
+  Querifier (Implementation Techniques for Relational Databases)        [Oct'12-Nov'12]
+  Guide: Prof. N. L. Sarda                  [https://github.com/mangalaman93/querifier]
+  * Designed an interface using JSP and Servlets for students to submit SQL queries and
+    verify submitted queries with the desired result as per query provided by instructor
+  * Used AJAX calls throughout the session of a user to minimize HTML traffic
+  * Implemented news forum where users can post questions and reply to existing threads
+  * Provided updates and upcoming deadlines on the user's homepage
+
+  Click to Cheat (Hack U Competition by Yahoo)                                 [Aug'12]
+  [https://github.com/mangalaman93/click to cheat]
+  * Developed an Android application that answers a natural-language fact based multiple
+    choice question given a clicked image
+  * Developed a JNIWrapper to use OpenCV's Adaptive Thresholding functions in android
+    for efficient text recognition (using Google's Tesseract OCR engine)
+
+  Singapore Mass Rapid Transit (Business Operations and Processes)      [Feb'12-Apr'12]
+  Guide: Prof Liu Fang
+  * Studied behavior of SMRT, proposed possible improvements based on statistical analysis
+  * Conducted a survey focused on train efficiency, operations, service standards to
+    support existence of problems in MRT (local train system of Singapore)
+  * Theoretically calculated the train inventory using Little's Law, compared it with
+    the collected data thereby proving the optimality of the existing system
+
+  Steganography (Data Structures and Algorithms)                       [Sept'11-Nov'11]
+  Guide: Prof. Varsha Apte               [http://github.com/mangalaman93/steganography]
+  * Developed using OpenCV to hide secret texts, files or small images in image files
+  * Implemented Least Significant Bit (LSB) Insertion algorithm to ensure invisibility
+    of change in cover image
+  * Huffman Compression of the secret data is used to achieve high payload capacity
+
+  Voice Recognition System (Electronics Club Summer Project)           [May'11-June'11]
+  [http://wiki.stab-iitb.org/wiki/Voice Recognition System]
+  * Implemented Discrete Wavelet Transform(DWT) using suitable mother wavelet to
+    recognize voice commands independent of the characteristics of the speaker
+  * Prototyped in MATLAB and implemented it in C to run it onto ATMEGA-328 µC
+  * Solved the problem of small memory of µC by using external EEPROM (25LC1024) and
+    designed a software cache to speed up writes and reads
+  * Developed a library to interface 7-seg LED Display to show static & dynamic text
+
+Other Projects
+  * Developed a language processor CFGLP extending features of C++, generates assembly
+    code (x84 architecture) from Control Flow Graph
+  * Designed virtual memory system with page in/out schemes, page fault handling, TLB,
+    swap space management in OS/161 operating system
+  * Developed a prototype of electronic eyes for blinds to cross road on Atmega-32
+    platform using Ultrasound technology and Doppler effect
+  * Developed a strategy based 2-player game Connect-4 in MIT Scheme, implemented an
+    AI player using minimax algorithm with alpha beta pruning
+  * Programmed Snake game having 10 levels of difficulty using EzWindows C++ library
+
+Software & Programming Skills
+  * Proficient in C, C++, Golang, Erlang, Java, Python
+  * docker, Scilab, Xilinx(Verilog), Android
+  * Ruby on Rails (RoR), Java (JSP Servlets), AJAX, Javascript, PHP
+
+Position of Responsibility
+  Convener of IIT Bombay Broadcasting Channel (IIT-BBC)                [July'11-Dec'11]
+  * Founded first ever online broadcasting channel by an institute in India, with the
+    help of Insight, IIT Bombay's Student Media Body and Newsletter
+  * Provides cultural, technical, sports and academic updates through videos
+  * Published over 50 videos in the first four months of the channel
+
+  ITSP Mentor (Institute Technical Summer Projects)
+  * Helped sophomore teams in their respective summer projects in 2012 and 2013
+  * Awarded for unprecedented mentorship by Student Technical Activities Body (STAB)
+
+Extra Curricular
+  * Contributed to spoken tutorial on Pre-Processor in GCC under Spoken Tutorial Project
+    by testing the scripts as a novice (2011)
+  * Successfully completed the basic module in Japanese offered by Japanese Embassy (2012)
+  * Guided the under-privileged in regular doubt clearing classes organized by Abhyasika
+    under Group for Rural Activities(GRA) (2011 - 2013)
+  * Secured first prize in short film making competition by Silverscreen club, IIT Bombay
+  * Designed a Wireless car using RF Module and an autonomous Line Follower on Arduino
+  * Successfully completed training in NSO Music(Keyboard) in 2010-11
