@@ -31,7 +31,7 @@ Professional Experience
   Load-Based Server Selection for Containers (Bell Labs)                [Jun'15 - Aug'15]
   Mentors: Martin Carroll, Ilija Hadzic, Christian Hans Woithe
    * Developed a monitoring infrastructure for Linux containers using collectd, influxdb
-      a time series database) and grafana (for visualization of various metrics)
+      (a time series database) and grafana (for visualization of various metrics)
    * Analyzed workload of a specific set of containers streaming arbitrary number of
       pixel streams to remote displays using locally available GPUs
    * Compared load prediction and container packing algorithms using Discrete Event
