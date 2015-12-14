@@ -1,0 +1,63 @@
+Aman Mangal
+amanmangal@gatech.edu
++1(404)-980-2426
+LinkedIn: https://www.linkedin.com/in/amanmangal
+GitHub: https://github.com/mangalaman93
+
+Education
+  Georgia Institute of Technology, Atlanta, GA, USA
+  MS in Computer Science (Specialization: Systems), GPA 4.0/4           [Aug'14 - Jun'16]
+
+  Indian Institute of Technology, Bombay, India
+  B.Tech. (Hons.) in Computer Science & Engineering, GPA: 8.54/10
+  Minor in Electrical Engineering                                       [Aug'10 - Jun'14]
+
+Programming Skills
+  Languages: C, C++, Golang, Erlang, Java, Python, OCaml, Bash, CUDA, OpenMPI
+  Tools/Platforms: Linux, Git, Docker, OpenStack, OpenFlow, Storm, Hadoop
+
+Professional Experience
+  Bell Labs, Murray Hill, NJ, USA                                       [Jun'15 - Aug'15]
+  Summer Intern (Mentors: Martin Carroll, Ilija Hadzic, Christian Hans Woithe)
+  * Developed monitoring infrastructure for Linux containers using collectd, influxdb
+  * Compared load prediction and packing algorithms using Discrete Event Simulation
+     technique for "streaming" containers assuming a exponentially distributed workload
+
+  Novanet Ltd, Mumbai, India                                            [Dec'12 - Dec'13]
+  Software Developer, COOP (Unified Call Distributor (UCD) in Erlang)
+  * Designed a distributed system to route call requests to agents based on their skills
+  * Compared mandatory and desired skills of agents, considered idle time in case of draw
+
+  Google Summer of Code, 2013                                           [Jun'13 - Dec'13]
+  Student Developer in BEAM Community (Mentors: Eric Merritt, Jordan Wilberding)
+  * Developed Erlang Package Manager to create and maintain index of Erlang packages
+
+Key Projects Undertaken
+  Raft Consensus Algorithm for Data Center Network                      [Sep'15 - Dec'15]
+  * Analyzed performance of Raft consensus algorithm (in etcd) in presence of heavy load
+     and improved it by assigning high priority to etcd messages than congestion traffic
+  * Evaluated the idea on 5 node cluster of etcd key-value store, setup on banana pi boards
+
+  Fault Tolerance in Software Defined Networks (SDNs)                   [Oct'14 - Dec'14]
+  * Proposed an algorithm for handling link failures in SDNs and implemented it in pyretic
+  * Proactively installed flow table rules using OpenFlow to reduce downtime
+
+  Optimizing Short Read Error Correction on GPU                         [Oct'14 — Dec'14]
+  * Improved efficiency of GPU based state of the art error correction software CUDA-EC
+     by 14.81% by increasing warp efficiency from 3.5% to 67.5% and other optimization
+
+  Erlang Distributed File System (Undergraduate Thesis)                 [Jul'13 - Dec'13]
+  * Developed a Distributed File System (eDFS) from scratch having master-slave architecture
+  * Implemented read and append operation in eDFS similar to Google File System (GFS)
+
+Publications
+  1. Aman Mangal, Arun Mathew, Tanmay Randhavane and Umesh Bellur. "DEBS Grand Challenge:
+     Predicting Power Needs in Smart Grids". In Proceedings of the 8th ACM International
+     Conference on Distributed Event-Based Systems (DEBS '14)
+
+Academic Achievements
+  * Secured All India Rank 70 in IIT JEE 2010 and All India Rank 256 in AIEEE 2010
+  * Stood amongst top 1% students in Indian National Physics Olympiad, 56th in National
+     Science Olympiad (NSO), 7th in second round of Indian National Mathematics Olympiad
+  * Selected for Student Exchange Program and completed Spring semester 2011-12 in
+     Nanyang Technological University (NTU), Singapore
