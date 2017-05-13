@@ -50,6 +50,47 @@
 	</p>
 </div>
 
+<!--JOB-->
+<div id="jobs">
+	<p class="header2">Professional Experience</p>
+	<hr/>
+	<b class="header3">Data Engineer, Lumiata Inc, Mumbai, MH, India</b>
+		<div class="content">
+			At Lumiata, I worked on scaling the existing Spark cluster to possibly hundreds of nodes by
+			containerizing all the services using docker and performing manual orchestration using
+			docker-compose. I also setup a secure docker registry server and a UI server to browse through
+			docker images. Before the India office was closed down, I was looking into setting up a
+			Kubernetes cluster for running multi node Spark clusters.
+		</div>
+	<br/>
+	<b class="header3">Member of Technical Staff Intern, Zerostack, Mountain View, CA, USA</b>
+		<div class="content">
+			I implemented support for adding external storage to ZeroStack using OpenStack Cinder
+			drivers whish is extensible to future Cinder drivers with minimal changes to ZeroStack. The
+			operation was atomic and followed eventual consistency model as well as it could recover
+			from unexpected crash or power failures. Towards the end of my internship, I also
+			helped in automation of setting up kubernetes clusters for customers.</div>
+	<br/>
+	<b class="header3">Summer Intern, Bell Labs, Murray Hill, NJ, USA</b>
+		<div class="content">
+			We developed a monitoring infrastructure for Linux containers running on a cluster of physical
+			servers using collectd, influxdb (a time series database) and grafana (for visualization of
+			various metrics). We, then, compared various load prediction and container packing algorithms
+			used for server consolidation in a cloud environment, using the technique of Discrete Event
+			Time Simulation. We picked a specific set of containers streaming an arbitrary number of pixel
+			streams used inside Bell Labs and analyzed their workload. To host a large number of such
+			containers on a minimum set of physical servers while still maintaining an acceptable level of
+			user response time, we needed to compare algorithms for load prediction and container packing.
+			We, therefore, developed a Discrete Event Simulation infrastructure and showed that the
+			simulation workload is close to real workload.<br/>
+			<a href="http://onlinelibrary.wiley.com/doi/10.1002/bltj.21544/abstract">
+                <img src="image/acm.jpg" alt="code" width="16" height="16" title="reference"/>
+                view related paper
+            </a>
+		</div>
+	<br/>
+</div>
+
 <!--PUBLICATIONS-->
 <div id="publications">
 	<p class="header2">Publications</p>
@@ -61,17 +102,6 @@
 			Event-Based Systems (DEBS '14), Mumbai, India</em>
 		</li>
 	</ul>
-</div>
-
-<!--JOB-->
-<div id="jobs">
-	<p class="header2">Professional Experience</p>
-	<hr/>
-	<b class="header3">Lumiata Inc, Mumbai, India</b>
-		<div class="content">
-			lumiata, zerostack, debs2015
-		</div>
-	<br/>
 </div>
 
 <!--RESEARCH-->
@@ -117,24 +147,6 @@
 			<a href="https://github.com/mangalaman93/nfs">
                 <img src="image/github.jpg" alt="code" width="16" height="16" title="github"/>
                 view source code
-            </a>
-		</div>
-	<br/>
-	<b class="header3">Load Based Server Selection for Linux Containers (Bell Labs, NJ)</b>
-		<div class="content">
-			We developed a monitoring infrastructure for Linux containers running on a cluster of physical
-			servers using collectd, influxdb (a time series database) and grafana (for visualization of
-			various metrics). We, then, compared various load prediction and container packing algorithms
-			used for server consolidation in a cloud environment, using the technique of Discrete Event
-			Time Simulation. We picked a specific set of containers streaming an arbitrary number of pixel
-			streams used inside Bell Labs and analyzed their workload. To host a large number of such
-			containers on a minimum set of physical servers while still maintaining an acceptable level of
-			user response time, we needed to compare algorithms for load prediction and container packing.
-			We, therefore, developed a Discrete Event Simulation infrastructure and showed that the
-			simulation workload is close to real workload.<br/>
-			<a href="http://onlinelibrary.wiley.com/doi/10.1002/bltj.21544/abstract">
-                <img src="image/acm.jpg" alt="code" width="16" height="16" title="reference"/>
-                view related paper
             </a>
 		</div>
 	<br/>
@@ -301,7 +313,7 @@
 	<p class="header2">Miscellaneous</p>
 	<hr/>
 	<ul>
-		<li>Run spark in docker containers, checkout </li>
+		<li>Run spark in docker containers, checkout <a href="https://github.com/mangalaman93/dspark">dspark</a> </li>
 		<li>I have been hacking <a href="https://www.docker.com/">docker</a> and related tools lately.
 			Checkout my <a href="https://github.com/mangalaman93">github</a> profile</li>
 		<li>I am fascinated by cross compilation facility of golang. We even used it to run
