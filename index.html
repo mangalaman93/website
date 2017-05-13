@@ -63,13 +63,34 @@
 	</ul>
 </div>
 
+<!--JOB-->
+<div id="jobs">
+	<p class="header2">Professional Experience</p>
+	<hr/>
+	<b class="header3">Lumiata Inc, Mumbai, India</b>
+		<div class="content">
+			lumiata, zerostack, debs2015
+		</div>
+	<br/>
+</div>
+
 <!--RESEARCH-->
 <div id="research">
 	<p class="header2">Research Experience</p>
 	<hr/>
 	<b class="header3">Raft Consensus Algorithm for Data Center Network</b>
 		<div class="content">
-			Data centers are becoming increasingly popular for their flexibility and processing capabilities. They are managed by a single entity and used by thousands of users. Centralized administration makes them extensible, predictable and more reliable, making them a good environment for innovative distributed applications. The flexibility and stronger guarantees provided by the data center network allow us to co-design distributed systems with their network layer and optimize their overall performance. In this project, we have analyzed the performance of the Raft consensus algorithm in the presence of heavy network load. We show that the degraded system performance can be significantly improved by co-designing the system with the network layer. We evaluate our idea on a 5 node cluster of etcd key-value store, setup on banana pi boards connected in a star topology. We also show how we can expose the network layer improvements to the application in a transparent manner in order to simplify application development.<br/>
+			Data centers are becoming increasingly popular for their flexibility and processing capabilities.
+			They are managed by a single entity and used by thousands of users. Centralized administration
+			makes them extensible, predictable and more reliable, making them a good environment for
+			innovative distributed applications. The flexibility and stronger guarantees provided by
+			the data center network allow us to co-design distributed systems with their network layer
+			and optimize their overall performance. In this project, we have analyzed the performance of
+			the Raft consensus algorithm in the presence of heavy network load. We show that the degraded
+			system performance can be significantly improved by co-designing the system with the network
+			layer. We evaluate our idea on a 5 node cluster of etcd key-value store, setup on banana pi
+			boards connected in a star topology. We also show how we can expose the network layer improvements
+			to the application in a transparent manner in order to simplify application development.<br/>
 			<a href="https://github.com/mangalaman93/etcd">
                 <img src="image/github.jpg" alt="code" width="16" height="16" title="github"/>
                 view source code
@@ -82,7 +103,17 @@
 	<br/>
 	<b class="header3">Orchestration of Network Functions in Cloud (NFV)</b>
 		<div class="content">
-			The Recent emergence of Network Function Virtualization (NFV) technology has provided greater flexibility for applications running in the cloud in terms of placement, scalability etc. At the same time, it has led to a rising need of sophisticated mechanisms and orchestration tools to achieve bounded latency and throughput due to buffering in software queues, slow processing compared to hardware network functions (NF), software context switching and unpredictable software behaviours due to cache etc. The goal is to develop tools to provide given Quality of Service (QoS) which may be defined either in terms of end to end latency, response time or throughput in the presence of software NFs while using the placement, resource allocation, flow routing as control parameters. We have developed an infrastructure to run network functions as docker containers, networking is setup using OpenStack, nova-docker and openvswitch and routes are setup using an SDN controller such as OpendayLight.<br/>
+			The Recent emergence of Network Function Virtualization (NFV) technology has provided greater
+			flexibility for applications running in the cloud in terms of placement, scalability etc. At
+			the same time, it has led to a rising need of sophisticated mechanisms and orchestration tools
+			to achieve bounded latency and throughput due to buffering in software queues, slow processing
+			compared to hardware network functions (NF), software context switching and unpredictable software
+			behaviours due to cache etc. The goal is to develop tools to provide given Quality of Service
+			(QoS) which may be defined either in terms of end to end latency, response time or throughput
+			in the presence of software NFs while using the placement, resource allocation, flow routing
+			as control parameters. We have developed an infrastructure to run network functions as docker
+			containers, networking is setup using OpenStack, nova-docker and openvswitch and routes are
+			setup using an SDN controller such as OpendayLight.<br/>
 			<a href="https://github.com/mangalaman93/nfs">
                 <img src="image/github.jpg" alt="code" width="16" height="16" title="github"/>
                 view source code
@@ -91,7 +122,16 @@
 	<br/>
 	<b class="header3">Load Based Server Selection for Linux Containers (Bell Labs, NJ)</b>
 		<div class="content">
-			We developed a monitoring infrastructure for Linux containers running on a cluster of physical servers using collectd, influxdb (a time series database) and grafana (for visualization of various metrics). We, then, compared various load prediction and container packing algorithms used for server consolidation in a cloud environment, using the technique of Discrete Event Time Simulation. We picked a specific set of containers streaming an arbitrary number of pixel streams used inside Bell Labs and analyzed their workload. To host a large number of such containers on a minimum set of physical servers while still maintaining an acceptable level of user response time, we needed to compare algorithms for load prediction and container packing. We, therefore, developed a Discrete Event Simulation infrastructure and showed that the simulation workload is close to real workload.<br/>
+			We developed a monitoring infrastructure for Linux containers running on a cluster of physical
+			servers using collectd, influxdb (a time series database) and grafana (for visualization of
+			various metrics). We, then, compared various load prediction and container packing algorithms
+			used for server consolidation in a cloud environment, using the technique of Discrete Event
+			Time Simulation. We picked a specific set of containers streaming an arbitrary number of pixel
+			streams used inside Bell Labs and analyzed their workload. To host a large number of such
+			containers on a minimum set of physical servers while still maintaining an acceptable level of
+			user response time, we needed to compare algorithms for load prediction and container packing.
+			We, therefore, developed a Discrete Event Simulation infrastructure and showed that the
+			simulation workload is close to real workload.<br/>
 			<a href="http://onlinelibrary.wiley.com/doi/10.1002/bltj.21544/abstract">
                 <img src="image/acm.jpg" alt="code" width="16" height="16" title="reference"/>
                 view related paper
