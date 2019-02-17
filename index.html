@@ -28,11 +28,11 @@
 	</div>
 	<div class="title">
 		<div style="margin-top:16px;" class="header">Aman Mangal</div>
-		Data Engineer at Zeotap<br/>
+		Software Engineer at <a href="https://dgraph.io">Dgraph Labs</a><br/>
 		Koramangala, Bengaluru, KA, India<br/>
 		<br/>
 		<b class="sub">hangout:</b> &nbsp; mangalaman93 <br/>
-		<b class="sub">Email:</b> &nbsp; &lang;firstname&rang;.&lang;lastname&rang;@zeotap.com
+		<b class="sub">Email:</b> &nbsp; &lang;firstname&rang;@dgraph.io
 	</div>
 	<div class="clear"></div>
 </div>
@@ -42,11 +42,10 @@
 	<p class="header2">Brief Biography</p>
 	<hr/>
 	<p class="content">
-		I am currently working at Zeotap as Data Engineer. My focus is to build,
-		monitor and optimize the data pipeline for processing terabytes of data.<br/>
+		I am currently working at Dgraph Labs as a Software Engineer with
+		focus on building High Performance and Distributed Systems.<br/>
 		Please find my resume <a href="doc/resume.pdf">here</a>, checkout my
-		<a href="https://github.com/mangalaman93">github</a> profile and my
-		<a href="http://www.cse.iitb.ac.in/alumni/~amanmangal10/">old website </a>
+		<a href="https://github.com/mangalaman93">github</a> profile.
 	</p>
 </div>
 
@@ -54,6 +53,36 @@
 <div id="jobs">
 	<p class="header2">Professional Experience</p>
 	<hr/>
+	<b class="header3">Software Engineer, Zeotap, Bengaluru, KA, India</b>
+		<div class="content">
+			My focus at Zeotap has been on building, scaling, optimizing and stabilizing various data
+			pipelines and systems. Zeotap deals with billions of records everyday and requires
+			processing terabytes of data fast and efficiently. I built various components of our data
+			pipelines using Spark and Oozie while ensuring consistency of data even when jobs fail.
+			We optimized one of the layers in our data pipeline and reduced its run time from 4
+			hours to only 20 minutes by correctly identifying the bottleneck. I also worked on setting
+			up and optimizing Redshift, to enable creating segments and run adhoc analysis queries
+			efficiently. I migrated one of our data stores as well as all the data pipelines around it,
+			from Aurora to Aerospike improving performance from 10,000 QPS to more than 300,000 QPS.
+			<br/>
+			<br/>
+			Apart from this, I have spent my time on building and implementing algorithms for attributing
+			revenue back to our data partners. I was able to optimize the algorithm so that it could
+			finish within desired SLA. I also built a system that can estimate size of adhoc segments on
+			billions of records with sub-second latency. This required building a customized in-memory
+			database specifically designed to run queries that can handle flat as well as nested data.
+			The system was implemented using Go for achieving efficiency while ensuing high uptime
+			using fail fast and supervisor tree ideas from Erlang programming language.
+			<br/>
+			<br/>
+			I also helped in building a collaborative culture in our Data Engineering team. I started
+			peer code review process on Github to improve the code quality and increase collaboration
+			within the team. To improve communication across teams, I stressed upon the idea of internal
+			tech-talks. I wrote the first engineering blog post at Zeotap to increase exposure outside
+			Zeotap and encouraged everyone in the team to write so that we can better realize and
+			communicate our ideas.
+		</div>
+	<br/>
 	<b class="header3">Data Engineer, Lumiata Inc, Mumbai, MH, India</b>
 		<div class="content">
 			At Lumiata, I worked on scaling the existing Spark cluster to possibly hundreds of nodes by
@@ -96,10 +125,28 @@
 	<p class="header2">Publications</p>
 	<hr/>
 	<ul>
-		<li><b>Predicting Power Needs in Smart Grids</b>.
-			Aman Mangal, Arun Mathew, Tanmay Randhavane and Umesh Bellur.<br/>
+		<li><b>Care as a resource in underserved learning environments</b>.
+			Karusala, Naveena and Vishwanath, Aditya and Kumar, Arkadeep and Mangal, Aman and Kumar, Neha<br/>
+			<em>Proceedings of the ACM on Human-Computer Interaction 2858--2871. 2017</em>
+		</li>
+	</ul>
+	<ul>
+		<li><b>A Statistical Exploration of Protocol Adoption</b>.
+			Nikkhah, Mehdi and Mangal, Aman and Dovrolis, Constantine and Guérin, Roch<br/>
+			<em>IEEE/ACM Transactions on Networking 25 (5), 2858-2871. 2017</em>
+		</li>
+	</ul>
+	<ul>
+		<li><b>A Survey and Evaluation of Data Center Network Topologies</b>.
+			Lebiednik, Brian and Mangal, Aman and Tiwari, Niharika<br/>
+			<em>arXiv preprint arXiv:1605.01701. 2016</em>
+		</li>
+	</ul>
+	<ul>
+		<li><b>Predicting power needs in smart grids</b>.
+			Mangal, Aman and Mathew, Arun and Randhavane, Tanmay and Bellur, Umesh<br/>
 			<em>Proceedings of the 8th ACM International Conference on Distributed
-			Event-Based Systems (DEBS '14), Mumbai, India</em>
+			Event-Based Systems p. 298--301. 2014</em>
 		</li>
 	</ul>
 </div>
@@ -313,14 +360,16 @@
 	<p class="header2">Miscellaneous</p>
 	<hr/>
 	<ul>
-		<li>Run spark in docker containers, checkout <a href="https://github.com/mangalaman93/dspark">dspark</a> </li>
-		<li>I have been hacking <a href="https://www.docker.com/">docker</a> and related tools lately.
-			Checkout my <a href="https://github.com/mangalaman93">github</a> profile</li>
-		<li>I am fascinated by cross compilation facility of golang. We even used it to run
-			<a href="https://github.com/mangalaman93/etcd">etcd</a> on arm processor</li>
-		<li>I am a great fan of language <a href="http://www.erlang.org/">Erlang</a> (and now golang),
-		    specially the <a href="http://www.erlang.org/download/armstrong_thesis_2003.pdf">thesis
-			</a>by <a href="http://joearms.github.io/">Joe Armstrong</a></li>
+		<li>Building embedded, fast and persistent queue - bigqueue in Go
+			<a href="https://github.com/grandecola/bigqueue">https://github.com/grandecola/bigqueue</a></li>
+		<li>Working on a highly concurrent, efficient cache in Go
+			<a href="https://github.com/dgraph-io/caffeine">https://github.com/dgraph-io/caffeine</a></li>
+		<li>Read my take on Git rebase vs merge debate
+			<a href="https://medium.com/@zeotapstories/the-zeotech-series-git-workflow-rebase-vs-merge-93cf0866ed35">https://medium.com/@zeotapstories/the-zeotech-series-git-workflow-rebase-vs-merge-93cf0866ed35</a></li>
+		<li>My talk on building highly available (HA) systems in Go -
+			<a href="https://docs.google.com/presentation/d/1caX_HRmrGXKB9ecQZiUu4Yp4p64fDXiuPR5Bj-3O5l0/edit#slide=id.g35f391192_00">click here</a> </li>
+		<li>My talk on Implementing rollback in transactions using defer -
+			<a href="https://github.com/mangalaman93/defer/blob/master/implement_transactions_using_defer.pdf">click here</a></li>
 	</ul>
 </div>
 
