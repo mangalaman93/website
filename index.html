@@ -18,7 +18,6 @@
 	</div>
 	<div class="title">
 		<div style="margin-top:16px;" class="header">Aman Mangal</div>
-		Software Engineer at <a href="https://dgraph.io">Dgraph Labs</a><br/>
 		Koramangala, Bengaluru, KA, India<br/>
 		<br/>
 		<b class="sub">hangout:</b> &nbsp; mangalaman93 <br/>
@@ -32,8 +31,7 @@
 	<p class="header2">Brief Biography</p>
 	<hr/>
 	<p class="content">
-		I am currently working at Dgraph Labs as a Software Engineer with
-		focus on building High Performance and Distributed Systems.<br/>
+		I am currently looking for jobs in Systems or Distributed Systems space.<br/>
 		Please find my resume <a href="doc/resume.pdf">here</a>, checkout my
 		<a href="https://github.com/mangalaman93">github</a> profile.
 	</p>
@@ -138,6 +136,12 @@
 <div id="publications">
 	<p class="header2">Publications</p>
 	<hr/>
+
+	<a href="https://scholar.google.com/citations?user=_H5ss90AAAAJ">
+		<img src="image/scholar.png" alt="code" width="16" height="16" title="slides"/>
+		Google Scholar Profile
+	</a>
+
 	<ul>
 		<li><b>Care as a resource in underserved learning environments</b>.
 			Karusala, Naveena and Vishwanath, Aditya and Kumar, Arkadeep and Mangal, Aman and Kumar, Neha<br/>
@@ -169,6 +173,29 @@
 <div id="research">
 	<p class="header2">Research Experience</p>
 	<hr/>
+	<b class="header3">Zscaler (hackathon @ Zeotap)</b>
+		<div class="content">
+			As part of a 3 day company wide hackathon, we (a team of 4 engineers) replaced an
+			external service (Spotinst) used to scale AWS Elastic Map Reduce (EMR) clusters with
+			spot nodes by a custom built service saving more than $50K/year. We utilized insights
+			such as container pending, memory allocated, container running from the yarn cluster
+			scheduler in order to provide shorter job completion times (by faster scale up),
+			better visibility and proactive alerts.
+			<br/>
+			<br/>
+			Zscaler scales up an EMR cluster when jobs are queued on yarn scheduler using spot nodes.
+			It chooses a set of nodes by maximizing a cost function (a non linear LP) that combines
+			node availability, node interruption probability and cost of running the cluster.
+			Once jobs are complete, it will remove the nodes to ensure that the cluster doesn't
+			run idle. If, for some reason, zscaler is not able to add nodes to the cluster, it will
+			notify the cluster admin for a manual intervention.
+			<br/>
+			<a href="https://tinyurl.com/zscaler-hackathon">
+                <img src="image/slides.png" alt="code" width="16" height="16" title="slides"/>
+                view hackathon presentation
+            </a>
+		</div>
+	<br/>
 	<b class="header3">Raft Consensus Algorithm for Data Center Network</b>
 		<div class="content">
 			Data centers are becoming increasingly popular for their flexibility and processing capabilities.
@@ -228,7 +255,8 @@
                 <img src="image/github.jpg" alt="code" width="16" height="16" title="bitbucket"/>
                 view source code
             </a>
-            <a href="https://bytebucket.org/cjain7/cse6230-project/raw/0a2b87bde3d12a45decc4423303e24fa4592e29d/final-report.pdf" style="margin-left:10px">
+			<a href="https://bytebucket.org/cjain7/cse6230-project/raw/0a2b87bde3d12a45decc4423303e24fa4592e29d/final-report.pdf"
+			   style="margin-left:10px">
                 <img src="image/pdf.png" alt="report" width="16" height="16" title="report"/>
                 view report
             </a>
@@ -381,7 +409,9 @@
 			<a href="https://github.com/mangalaman93/giggle">https://github.com/mangalaman93/giggle</a>
 		</li>
 		<li>Read my take on Git rebase vs merge debate
-			<a href="https://medium.com/@zeotapstories/the-zeotech-series-git-workflow-rebase-vs-merge-93cf0866ed35">https://medium.com/@zeotapstories/the-zeotech-series-git-workflow-rebase-vs-merge-93cf0866ed35</a>
+			<a href="https://medium.com/@zeotapstories/the-zeotech-series-git-workflow-rebase-vs-merge-93cf0866ed35">
+				https://medium.com/@zeotapstories/the-zeotech-series-git-workflow-rebase-vs-merge-93cf0866ed35
+			</a>
 		</li>
 		<li>My talk on building highly available (HA) systems in Go -
 			<a href="https://docs.google.com/presentation/d/1caX_HRmrGXKB9ecQZiUu4Yp4p64fDXiuPR5Bj-3O5l0/edit#slide=id.g35f391192_00">click here</a>
