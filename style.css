@@ -1,7 +1,7 @@
 ﻿body {
-	font-family:'Open Sans', sans-serif;
-	margin-left:10px;
-	margin-right:20px;
+    font-family:'Open Sans', sans-serif;
+    margin-left:10px;
+    margin-right:20px;
 }
 
 a:link, a:visited {
@@ -13,45 +13,45 @@ a:hover, a:active {
 }
 
 p {
-	margin:0px;
+    margin:0px;
 }
 
 .sketch {
-	float:left;
+    float:left;
 }
 
 .title {
-	float:left;
+    float:left;
 }
 
 .header {
-	font-size:220%;
-	color:#0F4057;
+    font-size:220%;
+    color:#0F4057;
 }
 
 .sub {
-	color:#0F4057;
+    color:#0F4057;
 }
 
 .header2 {
-	color:#0F4057;
-	font-size:140%;
-	font-weight:bold;
-	margin-bottom:5px;
-	margin-top:20px;
+    color:#0F4057;
+    font-size:140%;
+    font-weight:bold;
+    margin-bottom:5px;
+    margin-top:20px;
 }
 
 .content {
-	padding-left:5px;
-	text-align:justify;
+    padding-left:5px;
+    text-align:justify;
 }
 
 .header3 {
-	color:#0F4057;
-	text-decoration:underline;
-	font-size:105%;
+    color:#0F4057;
+    text-decoration:underline;
+    font-size:105%;
 }
 
 .clear{
-	clear:both;
+    clear:both;
 }
