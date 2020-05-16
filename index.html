@@ -22,7 +22,7 @@
 		Koramangala, Bengaluru, KA, India<br/>
 		<br/>
 		<b class="sub">hangout:</b> &nbsp; mangalaman93 <br/>
-		<b class="sub">Email:</b> &nbsp; &lang;firstname&rang;@dgraph.io
+		<b class="sub">Email:</b> &nbsp;mangalaman93 [AT] gmail
 	</div>
 	<div class="clear"></div>
 </div>
@@ -43,6 +43,30 @@
 <div id="jobs">
 	<p class="header2">Professional Experience</p>
 	<hr/>
+	<b class="header3">Distributed Systems Engineer, Dgraph Labs, Bengaluru, KA, India</b>
+		<div class="content">
+			My focus at Dgraph was to improve the performance, fix bugs and add new features
+			to the database. I added the feature for Upsert and Multiple Mutation in the query
+			language by modifying the compiler and execution engine. I improved the performance
+			of indexing multi folds and reduced the memory usage by using disk for temporary data.
+			I also laid down <a href="https://dgraph.io/blog/post/caching-in-go/">initial work</a>
+			to show that the Go ecosystem needed a high performance cache and existing caches are
+			not enough which eventually led to <a href="https://github.com/dgraph-io/ristretto/">Ristretto</a>.
+			<br/>
+			<br/>
+			I also enabled Dgraph to compute indexes in the background while still maintaining strong
+			consistency guarantees. This allowed Dgraph to perform mutations and queries even while
+			indexing is going on. I was able to logically prove that all the index changes will be
+			correctly computed for mutations applied before or after indexing command was issued.
+			All my contributions to Dgraph can be found
+			<a href="https://github.com/dgraph-io/dgraph/commits?author=mangalaman93">here</a>.
+			<br/>
+			<br/>
+			Apart from that, I was the founding engineer of the team in Bangalore and helped grow the
+			team from myself to 16 people when I left. I also ended up adding couple of articles to the
+			pool of excellent <a href="https://dgraph.io/blog">blogs</a> that Dgraph has.
+		</div>
+	<br/>
 	<b class="header3">Software Engineer, Zeotap, Bengaluru, KA, India</b>
 		<div class="content">
 			My focus at Zeotap has been on building, scaling, optimizing and stabilizing various data
@@ -351,15 +375,20 @@
 	<hr/>
 	<ul>
 		<li>Building embedded, fast and persistent queue - bigqueue in Go
-			<a href="https://github.com/grandecola/bigqueue">https://github.com/grandecola/bigqueue</a></li>
-		<li>Working on a highly concurrent, efficient cache in Go
-			<a href="https://github.com/dgraph-io/caffeine">https://github.com/dgraph-io/caffeine</a></li>
+			<a href="https://github.com/grandecola/bigqueue">https://github.com/grandecola/bigqueue</a>
+		</li>
+		<li>Building a background application to sync overleaf repo to GitHub
+			<a href="https://github.com/mangalaman93/giggle">https://github.com/mangalaman93/giggle</a>
+		</li>
 		<li>Read my take on Git rebase vs merge debate
-			<a href="https://medium.com/@zeotapstories/the-zeotech-series-git-workflow-rebase-vs-merge-93cf0866ed35">https://medium.com/@zeotapstories/the-zeotech-series-git-workflow-rebase-vs-merge-93cf0866ed35</a></li>
+			<a href="https://medium.com/@zeotapstories/the-zeotech-series-git-workflow-rebase-vs-merge-93cf0866ed35">https://medium.com/@zeotapstories/the-zeotech-series-git-workflow-rebase-vs-merge-93cf0866ed35</a>
+		</li>
 		<li>My talk on building highly available (HA) systems in Go -
-			<a href="https://docs.google.com/presentation/d/1caX_HRmrGXKB9ecQZiUu4Yp4p64fDXiuPR5Bj-3O5l0/edit#slide=id.g35f391192_00">click here</a> </li>
+			<a href="https://docs.google.com/presentation/d/1caX_HRmrGXKB9ecQZiUu4Yp4p64fDXiuPR5Bj-3O5l0/edit#slide=id.g35f391192_00">click here</a>
+		</li>
 		<li>My talk on Implementing rollback in transactions using defer -
-			<a href="https://github.com/mangalaman93/defer/blob/master/implement_transactions_using_defer.pdf">click here</a></li>
+			<a href="https://github.com/mangalaman93/defer/blob/master/implement_transactions_using_defer.pdf">click here</a>
+		</li>
 	</ul>
 </div>
 
