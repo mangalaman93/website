@@ -1,3 +1,4 @@
 Website
 =======
-My [home page](http://amanmangal.me/)
+
+My [Home Page](http://amanmangal.net/)

@@ -18,7 +18,7 @@
     </div>
     <div class="title">
         <div style="margin-top:16px;" class="header">Aman Mangal</div>
-        Koramangala, Bengaluru, KA, India<br/>
+        Jaipur, RJ, India<br/>
         <br/>
         <b class="sub">hangout:</b> &nbsp; mangalaman93 <br/>
         <b class="sub">Email:</b> &nbsp;mangalaman93 [AT] gmail
@@ -33,14 +33,50 @@
     <p class="content">
         I am currently looking for jobs in Systems or Distributed Systems space.<br/>
         Please find my resume <a href="doc/resume.pdf">here</a>, checkout my
-        <a href="https://github.com/mangalaman93">github</a> profile.
+        <a href="https://github.com/mangalaman93">GitHub</a> profile and connect me on
+        <a href="https://www.linkedin.com/in/amanmangal/">LinkedIn</a>.
     </p>
 </div>
 
 <!--JOB-->
 <div id="jobs">
-    <p class="header2">Professional Experience</p>
+    <p class="header2">Industry Experience</p>
     <hr/>
+    <b class="header3">Sofware Engineer, Arista Networks, Remote (Jaipur, RJ, India)</b>
+        <div class="content">
+            At Arista Networks, I have been managing the Zero Touch Provisioning (ZTP) package.
+            ZTP is one of the components of Cloudvision Portal (CVP) which provides a solution
+            to automate networking operations and monitor networks for enterprises and universities.
+            ZTP allows onboarding devices quickly and smoothly on to CVP without requiring any
+            manual intervention.
+            <br/>
+            <br/>
+            ZTP has two components, one is on the device/router side in C/C++ and the CVP side
+            component written in Java/Go. I have fixed various ZTP bugs that have been there since
+            its inception both in the product as well as tests (ctest, unit/integration test).
+            I have also led work for adding various new features such as adding support for
+            certificates without SAN IP, adding support for hardware authentication using TPM 2.0
+            devices, adding support for web proxy in ZTP.
+            <br/>
+            <br/>
+            Recently, Arista has begun its cloud offering of Cloudvision Portal, CVP as a Service
+            (CVaaS). For ZTP, in the context of CVaaS, the goal has been to provide a smooth and
+            secure onboarding experience while making sure that right device shows up for the
+            right tenant. This required adding support for device embedded token for initial
+            authentication, making hardware authentication using TPM work in cloud context, setting
+            up a pipeline from sales database for mapping device to right tenant, talking to
+            redirector for finding the right cluster for a tenant, enabling onboarding using a USB
+            or a custom bootstrap script.
+            <br/>
+            <br/>
+            I have also been a crucial part of implementing the Ownership Voucher Grpc Service
+            for Secure ZTP (RFC 8572). Ownership Vouchers allow device onboarding even in less
+            secure context by setting up a root of trust using the vendor issued vouchers. This
+            required coordination among various teams, designing the APIs for grpc service, figuring
+            out authentication and authorization for users, figuring out APIs for getting the
+            voucher signed securely using Arista's root of trust.
+        </div>
+    <br/>
     <b class="header3">Distributed Systems Engineer, Dgraph Labs, Bengaluru, KA, India</b>
         <div class="content">
             My focus at Dgraph was to improve the performance, fix bugs and add new features
@@ -422,7 +458,7 @@
     </ul>
 </div>
 
-<div style="color:gray; text-align:center;"> Last updated in May 2020<br/></div>
+<div style="color:gray; text-align:center;"> Last updated in March 2022<br/></div>
 </body>
 
 </html>
